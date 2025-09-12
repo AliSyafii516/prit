@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya - Luar Angkasa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="myAudio" loop autoplay>
+        <source src="audio/backsound.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <button id="audio-toggle" class="audio-control" style="display: none;">Play Music</button>
+
+    <div class="stars"></div>
+    <div class="shooting-stars"></div>
+    <div class="meteors"></div>
+
+    <img src="images/astronaut.png" alt="Astronot Mengambang" class="astronaut-float">
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/foto-saya.jpg" alt="Foto Ali Syafii" class="profile-pic">
+                <h1>Ali Syafii S.Kom</h1>
+            </div>
+            <ul>
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#portfolio">Portofolio</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Halo, saya Ali Syafii S.Kom</h2>
+            <p>Seorang IT Support Web Developer & Android Developer</p>
+            <a href="#portfolio" class="button">Lihat Karya Saya</a>
+        </div>
+        <img src="images/roket.png" alt="Roket Meluncur" class="rocket-launch">
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <p>Saya seorang sarjana Teknik Informatika dengan IPK 3,23 lulusan 2022, Saya adalah seorang IT Support dengan kemampuan tambahan di bidang Web Development dan Android App Development. Berpengalaman dalam menangani berbagai permasalahan teknis, saya terbiasa memberikan solusi cepat dan efektif untuk memastikan sistem dan perangkat berjalan optimal.
+
+Selain itu, saya juga memiliki kemampuan dalam membangun website berbasis HTML, CSS, JavaScript, dan Laravel, serta mampu mengembangkan aplikasi Android menggunakan Kotlin atau Java. Kombinasi keahlian ini memungkinkan saya tidak hanya menyelesaikan masalah teknis, tetapi juga menciptakan solusi digital yang fungsional dan efisien.
+
+Saya senang mempelajari hal-hal baru di dunia teknologi dan selalu berusaha meningkatkan keterampilan agar dapat memberikan kontribusi maksimal dalam setiap proyek yang saya tangani."</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Keahlian</h2>
+            <div class="skills-grid">
+                <div class="skill-item">IT Support</div>
+                <div class="skill-item">Technical Solution</div>
+                <div class="skill-item">Web Development</div>
+                <div class="skill-item">Android Development</div>
+            </div>
+            <img src="images/saturnus.png" alt="Planet Saturnus Kiri" class="saturn-image saturn-left">
+            <img src="images/saturnus.png" alt="Planet Saturnus Kanan" class="saturn-image saturn-right">
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portofolio</h2>
+            <div class="portfolio-grid" id="portfolio-items">
+                </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Kontak Saya</h2>
+            <p>Tertarik bekerja sama? Silakan hubungi saya melalui:</p>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:syafiia810@gmail.com">syafiia810@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/ali-syafi-i-6095a9245/" target="_blank">https://www.linkedin.com/in/ali-syafi-i-6095a9245/</a></p>
+                <p>GitHub: <a href="https://github.com/AliSyafii516" target="_blank">https://github.com/AliSyafii516</a></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    </div>
+                <button class="carousel-prev-btn">&lt;</button>
+                <button class="carousel-next-btn">&gt;</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
