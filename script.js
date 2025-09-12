@@ -206,7 +206,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (currentIndex < totalSlides - 1) {
             currentIndex++;
         } else {
-            currentIndex = 0; // Kembali ke awal
+            currentIndex = 0;
         }
         updateCarousel();
     });
@@ -216,7 +216,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (currentIndex > 0) {
             currentIndex--;
         } else {
-            currentIndex = totalSlides - 1; // Kembali ke akhir
+            currentIndex = totalSlides - 1;
         }
         updateCarousel();
     });
@@ -245,7 +245,6 @@ document.addEventListener('DOMContentLoaded', () => {
             portfolioGrid.appendChild(portfolioItemDiv);
         });
 
-        // Tambahkan event listener untuk setiap tombol "Lihat Proyek"
         portfolioGrid.addEventListener('click', (e) => {
             if (e.target.classList.contains('view-project-btn')) {
                 e.preventDefault();
@@ -259,4 +258,25 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+
+    // --- Logika Penambah Jumlah Pengunjung ---
+    const viewCountElement = document.getElementById('view-count');
+
+    // Endpoint CountAPI untuk repositori Anda.
+    const countApiUrl = 'https://api.countapi.xyz/hit/alisyafii516.github.io/prit';
+
+    // Ambil data dari CountAPI
+    fetch(countApiUrl)
+        .then(response => response.json())
+        .then(data => {
+            if (viewCountElement && data.value) {
+                viewCountElement.textContent = data.value;
+            }
+        })
+        .catch(error => {
+            console.error('Error fetching view count:', error);
+            if (viewCountElement) {
+                viewCountElement.textContent = 'N/A';
+            }
+        });
 });
