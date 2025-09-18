@@ -164,7 +164,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 "portofolio/porto/2.jpeg",
                 "portofolio/porto/22.jpeg",
                 "portofolio/porto/222.jpeg",
-                "portofolio/porto/2222.jpeg",
                 "portofolio/porto/3.jpeg",
                 "portofolio/porto/33.jpeg",
                 "portofolio/porto/333.jpeg"
@@ -280,3 +279,4 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 });
+
