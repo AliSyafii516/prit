@@ -168,6 +168,53 @@ document.addEventListener('DOMContentLoaded', () => {
                 "portofolio/porto/33.jpeg",
                 "portofolio/porto/333.jpeg"
             ]
+        },
+         {
+            title: "Aplikasi Restoran/Cafe",
+            description: "Aplikasi Restoran, Cafe, dan Rumah Makan",
+            image: "portofolio/porto/inv.png",
+            link: "#",
+            gallery: [
+                "portofolio/porto/resto1.png",
+                "portofolio/porto/resto2.png",
+                "portofolio/porto/resto3.png",
+                "portofolio/porto/resto4.png",
+                "portofolio/porto/resto5.png",
+                "portofolio/porto/resto6.png",
+                "portofolio/porto/resto7.png"
+            ]
+        },
+        {
+            title: "Aplikasi Pegawai",
+            description: "Aplikasi Pegawai Untuk Administrasi HRD",
+            image: "portofolio/porto/inv.png",
+            link: "#",
+            gallery: [
+                "portofolio/porto/kepeg1.png",
+                "portofolio/porto/kepeg2.png",
+                "portofolio/porto/kepeg3.png",
+                "portofolio/porto/kepeg4.png",
+                "portofolio/porto/kepeg5.png",
+                "portofolio/porto/kepeg6.png",
+                "portofolio/porto/kepeg7.png",
+                "portofolio/porto/kepeg8.png",
+                "portofolio/porto/kepeg9.png"
+            ]
+        },
+         {
+            title: "Aplikasi Inventaris Perusahaan",
+            description: "Aplikasi Inventaris Untuk Administrasi Perusahaan",
+            image: "portofolio/porto/inv.png",
+            link: "#",
+            gallery: [
+                "portofolio/porto/aspak1.png",
+                "portofolio/porto/aspak2.png",
+                "portofolio/porto/aspak3.png",
+                "portofolio/porto/aspak4.png",
+                "portofolio/porto/aspak5.png",
+                "portofolio/porto/aspak6.png"
+
+            ]
         }
     ];
 
@@ -279,4 +326,5 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 });
+
 
