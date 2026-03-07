@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
          {
             title: "Aplikasi Restoran/Cafe",
             description: "Aplikasi Restoran, Cafe, dan Rumah Makan",
-            image: "portofolio/porto/inv.png",
+            image: "portofolio/porto/resto1.png",
             link: "#",
             gallery: [
                 "portofolio/porto/resto1.png",
@@ -187,7 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: "Aplikasi Pegawai",
             description: "Aplikasi Pegawai Untuk Administrasi HRD",
-            image: "portofolio/porto/inv.png",
+            image: "portofolio/porto/kepeg1.png",
             link: "#",
             gallery: [
                 "portofolio/porto/kepeg1.png",
@@ -204,7 +204,7 @@ document.addEventListener('DOMContentLoaded', () => {
          {
             title: "Aplikasi Inventaris Perusahaan",
             description: "Aplikasi Inventaris Untuk Administrasi Perusahaan",
-            image: "portofolio/porto/inv.png",
+            image: "portofolio/porto/aspak1.png",
             link: "#",
             gallery: [
                 "portofolio/porto/aspak1.png",
@@ -326,5 +326,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 });
+
 
 
